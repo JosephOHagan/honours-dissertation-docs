@@ -1,3 +1,5 @@
-NOTE: Will transfer to a better formatted / spreadsheet(?) document at a later date. Will do for now.
+NOTE: Will transfer to a better formatted / spreadsheet(?) document at a later date. Probably. Will do for now. 
 
-01/10/17 1 hour: Repository and documentation setup and read project guide and assessement documentation. Thought about general ideas for project and what I'll need to do to get started / review / look into further. Setup Trello board.
+01/10/17 1 hour: Repository and documentation setup and read project guide and assessement documentation. Thought about general ideas for project and what I'll need to do to get started / review / look into further. Setup Trello board. Planned intial starting work / things to look into further.
+
+02/10/17 30 minutes: Setup of LaTeX and dissertation template - check compiles and formats correctly (it does though my LaTeX is rusty - may also setup build.xml similar to team project last year). Unity setup and borrowed an unloved copy of "C# Yellow Programming" book to skim through to "sharpen" those C# skills. Curated additional reading and viewing material for tomrrow. Updated meeting minutes with Friday's "meeting" notes from notebook.
