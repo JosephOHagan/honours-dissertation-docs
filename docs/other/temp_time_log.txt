@@ -1,5 +1,14 @@
 NOTE: Will transfer to a better formatted / spreadsheet(?) document at a later date. Probably. Will do for now. 
 
-01/10/17 1 hour: Repository and documentation setup and read project guide and assessement documentation. Thought about general ideas for project and what I'll need to do to get started / review / look into further. Setup Trello board. Planned intial starting work / things to look into further.
+01/10/17 
+1 hour: Repository and documentation setup and read project guide and assessement documentation. Thought about general ideas for project and what I'll need to do to get started / review / look into further. Setup Trello board. Planned intial starting work / things to look into further.
 
-02/10/17 30 minutes: Setup of LaTeX and dissertation template - check compiles and formats correctly (it does though my LaTeX is rusty - may also setup build.xml similar to team project last year). Unity setup and borrowed an unloved copy of "C# Yellow Programming" book to skim through to "sharpen" those C# skills. Curated additional reading and viewing material for tomrrow. Updated meeting minutes with Friday's "meeting" notes from notebook.
+02/10/17 
+30 minutes: Setup of LaTeX and dissertation template - check compiles and formats correctly (it does though my LaTeX is rusty - may also setup build.xml similar to team project last year). Unity setup and borrowed an unloved copy of "C# Yellow Programming" book to skim through to "sharpen" those C# skills. Curated additional reading and viewing material for tomrrow. Updated meeting minutes with Friday's "meeting" notes from notebook.
+
+03/10/17
+1 hour 30 minutes: Spent time reading "The Yellow C# Book" to get familar with the language again because it has been a while and the work I did with it was very small. Read most of the first 3 chapters of the book. Hope to have what remains of chapter 3 and the remaining 2 finished by Thursday. Coded some simple example programs.
+
+1 hour 30 minutes: Spent time researching VRTK and Unity itself. Found a handful of other links and resources to look into. I have a very rough idea of what VRTK is and how it works but will need to spend more time looking at it and Unity in general. Part of the project seems to be to solve the technical mess which I expect is using tools like VRTK is for certain tasks. Perhaps asking what's an example feature / task which I could simplify might be the way to start. 
+
+In general though I expect the simplistic VR application would be to setup a plane to move / look around in. Setup some lighting for the space. Set off some particles preferably in the sky / skybox. Stand back and admire the particle fireworks.

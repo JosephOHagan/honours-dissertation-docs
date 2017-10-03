@@ -5,3 +5,16 @@ Similar Tools:
 VRTK : https://vrtoolkit.readme.io/
 Newton VR : https://newtonvr.readme.io/
 SteamVR : https://developer.valvesoftware.com/wiki/SteamVR
+
+Some General Links To Explore:
+http://talesfromtherift.com/vr-fps-counter/
+http://gdcvault.com/play/1024792/VRTK-and-How-to-Make
+https://www.gamasutra.com/view/news/300552/Get_expert_guidance_on_building_for_VR_and_AR_at_VRDC_Fall_2017.php
+https://uploadvr.com/gdc-3-vr-tools-got-us/
+https://www.youtube.com/watch?v=fzRVTjUp00w
+https://www.youtube.com/watch?v=AbIiBrg8yT4
+https://www.youtube.com/watch?v=uTBYyZKwc40
+https://www.youtube.com/watch?v=1rtXMzc2mfI
+https://docs.unity3d.com/355/Documentation/Manual/Prefabs.html
+https://blog.betawave.io/a-software-engineers-guide-to-unity-and-ar-vr-development-part-2-5d2a696e3b8c
+https://cse.google.com/cse/home?cx=001712401338047450041%3Acsfhqk-trfa

@@ -29,11 +29,6 @@ That is rad.
 
 Scheduled our first "proper" meeting for Thursday October 5th 2.30pm
 
--- Brief note in which I scribbled down some initial reactions after the meeting
-
-Initial System Design Idea:
-My initial reaction is to establish a system in which new features can be added by simply sloting them into the existing platform. Initial work being to setup that framework / platform / whatever the technical term is with the most basic set of tools (1-3) as a proof of concept style of thing. If setup correctly then additional and more complex feature development should be as simple as "develop the feature and slot it into the existing system". Easy to expand upon and easy to maintain.
-
 -- Things to do in preparation:
 - Setup repo, Unity, documentation, etc.
 - Read through the project information documentation
