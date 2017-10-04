@@ -6,15 +6,28 @@ VRTK : https://vrtoolkit.readme.io/
 Newton VR : https://newtonvr.readme.io/
 SteamVR : https://developer.valvesoftware.com/wiki/SteamVR
 
-Some General Links To Explore:
-http://talesfromtherift.com/vr-fps-counter/
-http://gdcvault.com/play/1024792/VRTK-and-How-to-Make
-https://www.gamasutra.com/view/news/300552/Get_expert_guidance_on_building_for_VR_and_AR_at_VRDC_Fall_2017.php
-https://uploadvr.com/gdc-3-vr-tools-got-us/
-https://www.youtube.com/watch?v=fzRVTjUp00w
-https://www.youtube.com/watch?v=AbIiBrg8yT4
-https://www.youtube.com/watch?v=uTBYyZKwc40
-https://www.youtube.com/watch?v=1rtXMzc2mfI
-https://docs.unity3d.com/355/Documentation/Manual/Prefabs.html
-https://blog.betawave.io/a-software-engineers-guide-to-unity-and-ar-vr-development-part-2-5d2a696e3b8c
-https://cse.google.com/cse/home?cx=001712401338047450041%3Acsfhqk-trfa
+C# Resources:
+Threading in C# Resource (Recommended) : http://www.albahari.com/threading/
+
+Unity Tutorials (text):
+Recommended Tutorial Which Progresses In Difficulty : http://catlikecoding.com/unity/tutorials/
+
+Unity Tutorials (video):
+https://www.youtube.com/user/GenericSoviet/videos
+
+Unity General:
+A Unity Custom Google Search Engine : https://cse.google.com/cse/home?cx=001712401338047450041%3Acsfhqk-trfa (weird I know)
+
+Unity Documentation:
+Unity Prefabs : https://docs.unity3d.com/355/Documentation/Manual/Prefabs.html (mentioned a lot in VRTK documentation)
+
+VR General:
+Overview of VR Development Process (with Unity) : https://blog.betawave.io/tagged/unity
+VR FPS Counter Script (used in VRTK) : http://talesfromtherift.com/vr-fps-counter/
+VR Techniques, Tips and Tricks (talk) : https://www.youtube.com/watch?v=uTBYyZKwc40&t=6s
+Oculus Connect 3 Closing Keynote (John Carmack Talk - general VR talk) : https://www.youtube.com/watch?v=zlxyjx3bJ28 
+
+VRTK:
+VRTK - Making VR Development Easier For All (talk) : https://www.youtube.com/watch?v=AbIiBrg8yT4
+VRTK Video Tutorial Series : https://www.youtube.com/watch?v=fzRVTjUp00w
+VRTK Offical Video Tutorials : https://www.youtube.com/channel/UCWRk-LEMUNoZxUmY1wO7DBQ/videos

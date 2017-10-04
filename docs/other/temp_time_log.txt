@@ -12,3 +12,12 @@ NOTE: Will transfer to a better formatted / spreadsheet(?) document at a later d
 1 hour 30 minutes: Spent time researching VRTK and Unity itself. Found a handful of other links and resources to look into. I have a very rough idea of what VRTK is and how it works but will need to spend more time looking at it and Unity in general. Part of the project seems to be to solve the technical mess which I expect is using tools like VRTK is for certain tasks. Perhaps asking what's an example feature / task which I could simplify might be the way to start. 
 
 In general though I expect the simplistic VR application would be to setup a plane to move / look around in. Setup some lighting for the space. Set off some particles preferably in the sky / skybox. Stand back and admire the particle fireworks.
+
+04/10/17
+That's right we're keeping this daily chain of work going however small the work might be. That's right at least 30 minutes of dissertation work everyday. Some days I hope to commit fully to it once the VR lab is setup and things are slightly more development focused.
+
+2 hours: More C# work, read more of the textbook (I should have it finished before the weekend) and coded some more examples
+
+20 minutes: Looked into additional Unity tutorial links and sorted the list of links to investigate
+
+I didn't get a chance to look at Unity and the VR-side of it today despite wanting to. The general plan is to make some games in Unity whilst reading about the VR stuff, the VR tools and VR development as a whole. Well the "No I need to have game developer level knowledge of Unity for this project!" mentality is the justification I'm using on myself as an excuse to really learn Unity and VR development in depth.
