@@ -39,30 +39,88 @@ Went over what I've done thus far in preparation. We also went over the key goal
 
 The VR lab has yet to be setup, academics are busy people, but they hope to have it setup within the next week. Book out time slots, etc. It's going to have a Vive!
 
-Using Vive might have an effect on making some games in VR and other side effects - use the SteamVR camera. It will also be worth looking into SteamVR more as well and reading up on that. I wonder if there was a Steam Dev Days talk on it? Surely...
+Using Vive might have an effect on making some games in VR and other side effects - use the SteamVR camera. 
+It will be worth looking into SteamVR more as well and reading up on that. 
+I wonder if there was a Steam Dev Days talk on it? 
+Surely...
 
-I'll need to find out what exactly I need it for and what can be done outside of the VR lab as I imagine a lot can.
+I'll need to find out what exactly I need the VR lab for (aside from the obvious). 
+What work can be done at home (think Christmas break, lab is booked, etc.) as I imagine quite a bit of it can be.
 
-General project overview:
+##
+GENERAL IDEA / PROBLEMS WITH EXISTING TOOLS
+As has been covered the general idea of the project is to make VR development as non-technical developer friendly as possible. 
+No coding required if possible. 
+Drag and drop this script here and you're set.
 
-As has been covered the general idea of the project is to make VR development as non-technical developer friendly as possible. No coding required if possible. Drag and drop this script here and your set.
+Despite tools like VRTK claiming to be user friendly and easy to use they still use a lot of Unity terminology, require lots of configuration to get up and running and often a lot of digging into code to get things running. 
+That isn't not artist friendly. 
 
-Essentially despite tools like VRTK claiming to be user friendly and easy to use they still use a lot of Unity terminology, require lots of configuration to get up and running and often a lot of digging into code to get things running. That's not artist friendly. 
+Newton VR was apparently HORRIBLE especially to work with for Dr. Williamson and D&D. 
+The code base is supposedly a mess. 
+They had multiple versions of the project working concurrently where a feature was implemented in on and tested to make sure everything was still working and if it was then transfer it over to the main project.
+Even then you still would randomly fall through parts of the floor because some other object was configure with this object and that had this effect on that object other there. Oh look the floor is rising.
+Not non-technical friendly.
 
-Newton VR was apparently HORRIBLE in that regard to work with for Dr. Williamson and D&D. The code base is supposedly a mess. Also they had multiple versions of the project working concurrently where a feature was implemented in on and tested to make sure everything was still working and if it was then transfer it over to the main project.
+Let's simplify this process to require as little technical input from the artists and developers as possible. 
+Ideally no coding would be required on their part. 
+Code free.
+Instead of configuring multiple things how about we configure or set it up once and all that other work is taken care of on the back end
+It all just works and is configured for you behind the scenes
+How about we just drag and drop a pre-made script and that setups up the feature that we want
+Dragging and dropping scripts
+Developement via a user interface and a few clicks
+Think about the time required and number of steps to add an object and make it interactable - let's make that as few steps and little time as possible
+Stuff like that
 
-Let's simplify that process to require as little technical input from the artists as possible. Ideally no coding would be required on their part. Instead of configuring multiple things how about we configure or set it up once and all that other work is taken care of on the back end. How about we just drag and drop a pre-made script and that setups up the feature that we want. Dragging and dropping scripts, user a user interface, stuff like that.
 
-Now the technical purists might scream at this statement but think of it as automatically setting up an item with a pre-established default (which I've determined). If they want more control then dig into the code and change the gravity variable value or whatever it is they want to change. But let's follow that idea of making it as code free as possible to setup the scene or desired feature with this pre-established default set of values and settings.
+ESTABLISHING DEFAULTS
+Now the technical purists might scream at this but think of it as automatically setting up an object with a pre-established default (which I will determined). 
+If they want more control then dig into the code and change the gravity variable value or whatever it is they want to change. 
+But let's follow that idea of making it as code free as possible to setup the scene or desired feature with this pre-established default set of values and settings.
+"It all works and here is what it does"
 
-Example: Think about enabling the player's jump in a video game. Now in Halo the gravity set for the players jump is different and more floaty / moon-like than the gravity on the other objects in the game. Now the default "enable gravity" setting for an object would be your standard item in the game world which if enabled for the player would give them that gravity. For more VR experiments a single gravity setting is probably fine but should creator wish to alter the player's gravity then they can by changing the code.
+Example: Think about enabling the player's jump in a video game. 
+Now in Halo the gravity set for the players jump is different and more floaty / moon-like than the gravity on the other objects in the game. 
+Now the default "enable gravity" setting for an object would be your standard item in the game world which if enabled for the player would give them that gravity. 
+In Halo this default gravity value would be tweaked by the developer within the code to give the floaty gravity the character has within the Halo games.
+For most VR experiences a single gravity setting is probably fine but should creator wish to alter the player's gravity then they can by changing the code.
+That's a bit of stretch as an example but it's an example I used to describe it to someone and I'm going to reuse it now.
 
-That's a bit of stretch as an example but I used it in a conversation about the idea of configuring a default item gravity today so I've reused it.
-
-So we're hiding all that config from the user and just giving them a default setup of "Here's your item setup to work with in this VR environment". It's less customisable but its sold and it works everytime. There's none of the one-off issues you might face where something just doesn't work because of the order you configure the items or because some other item is configure in a certain way, etc.
+So we're hiding all that config from the user and just giving them a default setup of "Here's your item setup to work with in this VR environment". 
+It's less customisable but its solid and it works everytime. 
+There's none of the one-off issues you might face where something just doesn't work because of the order you configure the items or because some other item is configure in a certain way, etc.
 
 I do all the heavy lifting on the backend and provide a nice, clean, well designed UI to work with on the front end. 
 
+
+SOUND LIBRARIES
+Another key thing to look into is the sound / audio library. 
+VRTK might not have this and the one in Newton didn't work at all for Dr. Williamson's project.
+Either way there are quirks with the existing systems and mine will work properly. 
+That can also be a key part of the project.
+
+Example: When a ball makes contact with a surface it makes a noise. 
+Why can't this be a drag and drop of an audio file and set under what conditions it plays?
+
+I'll need to look into that some more but it sounds feasible.
+At least the simple case of attaching a sound file for the ball to make noise when it collides.
+Can't be that hard.
+And even a simpy system which works is better than the competition's which is complex and broken.
+That complexity just makes it harder to fix and setup.
+My system is user friendly
+
+
+END PRODUCT
+Dr. Williamson also confirmed what I initially thought about the project and that is if good enough I get to release it on the Unity asset store, as an open source project, etc.
+The other tools are... well I won't use the word she used but are too clunky and technical for your average artist or non-technical developer.
+VR is in its infancy again (try to forget its first infancy in the 90s)
+The tech is finally at a level where it's not a blocky, Tron-like world
+We can make that but think about the difference between the original Tron and Tron Legacy
+So I'm shipping the base, core model of a Virtual Reality Developement Toolkit for Unity in 6-7 months
+Life called my bluff
+
+##
 The general plan for the next two weeks though is as follows:
 
 2 weeks time have a requirements gathering session thingy with Debbie & Dennis:
@@ -70,28 +128,45 @@ The general plan for the next two weeks though is as follows:
 	- Get them to go through a code walkthrough so they can point and go "HATED THAT PART", etc.
 	- Questions like "Can you give an example of a task you would want simplified", "What's the current process", etc.
 	- Ask D&D what they want streamlined (it'll probably be dev-heavy but that's great because it looks and is more impressive!)
+	- Record interview
+	- Turn the recorded interview into a development plan - milestones (what do I want to achieve by Christmas / goal planning in that sense)
 
-In the meantime familarisation, research and get some practical VR development experience - get Hello World in VR up and running. 
+	
+HELLO WORLD IN VR (PRACTICAL VR DEVELOPMENT)
+I liked the idea of make a fireworks show in VR. 
+But a Hello World in VR really should include something you can pick up and throw at a wall or the ground. 
+Ideally it won't go through either. 
+Of course there will be physics associated with the item. 
+And it would be really cool if it made a noise on collision. 
+Stuff like that.
 
-I liked the idea of make a fireworks show but a Hello World in VR really should include something you can pick up and throw at a wall or the ground. Ideally it won't go through either. Of course there will be physics associated with the item. And it would be really cool if it made a noise on collision. Stuff like that.
+DEVELOPMENT WORK & UNITY RESEARCH
+Make some Unity games
+Make some Unity VR games
+Understand the process of developing and releasing a similar type of tool on the Unity asset store
+General understanding of VR development and what Unity provides by default
+Get a good grip on C#
+ 
+## 
+Questions and their Answers:
 
-Keep up the C#, Unity and VR development swatting, make a few Unity games and figure out that repo situation.
+Question: Regarding an example of a task to simplify
+Answer: 
+This was answered pretty much before I got the chance to ask but it again highlights the non-developer nature of the project. 
+For example to add one item might require configuring like 5 different things and then you still fall through portions of the floor. 
+Let's simplify that to a few clicks, drag a script here and it's set. 
+None of this configure A, B, C, oh and D is broken so configure P, Q, R, etc. configure once if at all. 
 
-Another key thing to look into is the sound / audio library. VRTK might not have this and the one in Newton didn't work at all for Dr. Williamson's project. 
+##
+Things to do in preparation (generally - the real action is over on Trello):
+. Start preparing questions for what I'll ask D&D at the interview meeting
+. Setup and test recording system on phone to record an interview (hour long?)
 
-That can also be a key part of the project. 
+. C# Development
 
-I'll need to look into that some more but it sounds feasible, at least the simple case of attaching a sound file for the ball to make noise when it collides can't be that hard.
+. Hello World (non-VR) and Unity research - start making Unity games, Unity development, etc.
+. Hello World in VR with existing toolkits to see just how technical this VR development business is
 
-My Question: Regarding an example of a task to simplify
-Answer: This was answered pretty much before I got the chance to ask but it again highlights the non-developer nature of the project. 
-For example to add one item might require configuring like 5 different things and then you still fall through portions of the floor. Let's simplify that to a few clicks, drag a script here and it's set. None of this configure A, B, C, oh and D is broken so configure P, Q, R, etc. configure once if at all. 
-
--- Things to do in preparation:
-1. Start preparing questions for what I'll ask D&D at the interview meeting
-2. Hello World in VR with existing toolkits to see just how technical this VR development business is
-3. Investigate sound library thingy
-4. Investigate 
---
-
-######################################################################
+. Investigate sound library thingy - how to audio works in games / VR / etc.
+. Investigate Vive development - exclusive SteamVR camera within Unity, dev process, etc.
+. Investigate Unity asset / library creation through to release cycle 

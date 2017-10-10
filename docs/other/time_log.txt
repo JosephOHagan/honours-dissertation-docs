@@ -26,3 +26,34 @@ Had meeting with Dr. Williamson for more of an overview and the plan of attack f
 30 minutes: Aside from the meeting I did a little more C# work and planned the goals and aims for the week ahead, call it a "retrospective", in that I went over the Trello board to see what I accomplished, didn't accomplish and what I think could be doing better.
 
 I was going to do more but the football was on and you know when the match ends as it only can for Scotland...
+
+06/10/17
+30 minutes: Put together a list of things to research, etc. Started on requirements gathering question list. Sorted out recorder on phone to record interview.
+
+07/10/17
+30 minutes: I didn't get as much of a chance to work on the project today as I might have liked. Did a little research into the general process to release something on the Unity asset store. That is the end goal of the project. I also added more detail to the meeting notes having spent some time thinking about it and what I should be trying to achieve in the next 2 weeks.
+
+I mean I had some developer talks about VR in general on in the background while I did my Functional Programming assessed exercise (I'm going to need to write more Haskell but that's a different problem) but I don't think that counts. Interesting though. I should make a list of those...
+
+08/10/17
+Scotland failed to qualify for the World Cup play offs with a level of disappointment only possible by the Scottish football team
+
+30 minutes: Trello setup and general Unity research 
+
+09/10/17
+1 hour 30 minutes: Finished up that Yellow C# textbook but I'd like to spend a little more time looking at delegates in particular
+
+1 hour 30 minutes: Worked on Unity tutorials.
+
+It was my intention to do more but a plug decided to trip, overload, I don't know what, in the kitchen at my flat. Now I'm not an electrican but generally when the switch part of a plug is hot that's not a good sign. What makes it better is that it is literally sealed into kitchen tiles with grout. That'll be fun to get off. My flat mate panicked as if he's never been in a situation where something has gone wrong in a flat before. I just wanted to flip the fuse at the fusebox itself but I did the "responsible" thing and contacted my landlord first. Let the record show he did everything I intended to do. I've never had a plug get stuck in the ON position. That and the heat was the worrying part.
+
+That took 2 hours of my life to deal with and it still won't be fixed until Friday.
+
+10/10/17
+
+3 hours: Finished up some Unity tutorials and experimented with repositories and Unity projects.
+
+My landlord showed up prematurely to deal with the plug situation which ruled the evening's work out AGAIN. And he's still coming back to do more on Friday.
+
+At least tomorrow and Thursday I should be able to focus fully on the project.
+
