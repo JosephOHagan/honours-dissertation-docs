@@ -157,16 +157,18 @@ For example to add one item might require configuring like 5 different things an
 Let's simplify that to a few clicks, drag a script here and it's set. 
 None of this configure A, B, C, oh and D is broken so configure P, Q, R, etc. configure once if at all. 
 
-##
-Things to do in preparation (generally - the real action is over on Trello):
-. Start preparing questions for what I'll ask D&D at the interview meeting
-. Setup and test recording system on phone to record an interview (hour long?)
+######################################################################
 
-. C# Development
+11/10/17: Proper Supervisor Meeting
 
-. Hello World (non-VR) and Unity research - start making Unity games, Unity development, etc.
-. Hello World in VR with existing toolkits to see just how technical this VR development business is
+There wasn’t much to discuss at today’s meeting. Just keep on becoming a game / VR developer.
 
-. Investigate sound library thingy - how to audio works in games / VR / etc.
-. Investigate Vive development - exclusive SteamVR camera within Unity, dev process, etc.
-. Investigate Unity asset / library creation through to release cycle 
+I mentioned the continued attempt to get a hold of Unity and that as well as that I’ve prepared some questions but will need to continue with that.
+
+I’ll probably throw those in a text file and write them in my notepad prior to the meeting.
+
+Aside from that the lab is now going to be in the lab-type of room that’s in Dr. Williamson’s office. I assisted in clearing it with her. She also had musical chairs. Literally musical chairs. You sat on them and part of a song played. When everyone sat you got the entire band and the full song. Also the orb is moving. I did get to touch it though before it left. 
+
+Our intention was to set up the Vive and dev environment but Graham didn’t send it over to her in time. We did go looking for it in his office but it appeared to still be connected and we couldn’t find the controllers.
+
+We eventually tracked down Graham who said he’d send it over shortly. With that we pretty much ran out of time as she had to move the orb. It’s a very large and impressive orb. We did agree to meet  tomorrow again at 2.30 to learn how to use the Vive alongside the other student she is working who needs the Vive. We might play some VR games to make sure it works correctly. This is very important work. I hope I get to play Valve’s VR Lab game. Technically it was made with Unity. If not tomorrow then I’m sure I can persuade Dr. Williamson to allow me to do so around Christmas time. I should get her a card when the time comes. 
