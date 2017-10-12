@@ -1,0 +1,18 @@
+Unity Guidelines Skim Read Highlights:
+
+General:
+While it is understandable that some projects are designed around open source libraries or frameworks, submissions to the Asset Store should have a majority of their content developed directly by the publisher.
+
+Documentation:
+For Unity asset store submission you are required documentation on how to use the project. How to set up and properly utilize the project - local documentation.
+Reading the documentation should give a clear understanding of how to use the product.
+More comprehensive and extensive documentation can but put online in addition (website like VRTK)
+The documentation included must contain enough instructions for the user to understand the basic functionalities of the submission with links to additional documentation mentioned at the beginning of the local documentation.
+Support email address included to contact you.
+Video documentation or tutorials should be uploaded online and not included with the project. A link to the video should be mentioned in the local documentation.
+
+Demo Scenes:
+Most submissions should include a demo scene.
+If your product has content to show off, they should be displayed in a demo scene.
+Projects that include a collection of assets must include a scene that showcases all of their assets laid out in a grid or continuous line.
+
