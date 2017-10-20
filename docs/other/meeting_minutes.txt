@@ -171,4 +171,128 @@ Aside from that the lab is now going to be in the lab-type of room that’s in D
 
 Our intention was to set up the Vive and dev environment but Graham didn’t send it over to her in time. We did go looking for it in his office but it appeared to still be connected and we couldn’t find the controllers.
 
-We eventually tracked down Graham who said he’d send it over shortly. With that we pretty much ran out of time as she had to move the orb. It’s a very large and impressive orb. We did agree to meet  tomorrow again at 2.30 to learn how to use the Vive alongside the other student she is working who needs the Vive. We might play some VR games to make sure it works correctly. This is very important work. I hope I get to play Valve’s VR Lab game. Technically it was made with Unity. If not tomorrow then I’m sure I can persuade Dr. Williamson to allow me to do so around Christmas time. I should get her a card when the time comes. 
+We eventually tracked down Graham who said he’d send it over shortly. With that we pretty much ran out of time as she had to move the orb. It’s a very large and impressive orb. We did agree to meet  tomorrow again at 2.30 to learn how to use the Vive alongside the other student she is working who needs the Vive. We might play some VR games to make sure it works correctly. This is very important work. I hope I get to play Valve’s VR Lab game. Technically it was made with Unity. If not tomorrow then I’m sure I can persuade Dr. Williamson to allow me to do so around Christmas time. I should get her a card when the time comes.
+
+######################################################################
+
+12/10/17: Vive Setup Meeting
+
+Dr. Williamson showed us how to setup the Vive. I then proceeded to spend the afternoon playing Vive games and getting a feel for using it.
+
+Tilt Brush: We painted in 3D space. It's very strange to draw in 3 dimensions. You go to draw a straight horizontal line but it curves slightly because that's the way your hand and arm moves whilst making that motion. It's very strange.
+
+Waltz of the Wizard: Another experience type of VR thingy. You get to play around in a wizards workshop. I threw Hadokens. Also this: [INSERT GIANT BOMB WIZARD VIDEO LINK] (sorry)
+
+Rec Room: Rec Room is incredible. 
+The ability to chat to other players is not this revolutionary concept but it's incredibly strange to interact and be in complete control of your avatar. 
+It's that level of control that causes you to build a floating tower of chairs in the middle of a basketball court where you stand on top of the tower, catch chairs being thrown up to you by other players, continue to grow the tower by placing your caught chair on top and then teleporting on top of it before catching another chair and repeating. Turns out while you can stick your head through the ceiling the chairs cannot go through it.
+Or how about entering with a team of four into a combat minigame. Running over to your downed squad mate, reviving him with a him fire and then firing and killing an enemy running up behind him while he simultaneously takes out one running up behind you. Then we fist bumped.
+Rec Room is incredible.
+
+######################################################################
+
+18/10/17: Supervisor Meeting
+
+TL;DR:
+
+I scheduled a meeting with Debbie & Dennis for next week hopefully. I thought it was this week (my bad I should have followed up on that). If they can't attend then Dr. Williamson will just run me through the NewtonVR code and get an emailed list of requirements which should suffice. 
+
+This week I gave an update on what I've been working on (Hello World VR opposed to Hello World Unity) and will need to continue to work on that and gain a further understanding in addition to figuring out the next few things I'll need for development of this project:
+- Look at loading between scenes (without default Vive room)
+- Look at GUI tool development
+- Look at skyboxes (VR and non-VR)
+- Look at event handling (VR and non-VR)
+- Look at Unity camera (VR and non-VR)
+
+There's also a few other documentation and planning type of things to produce:
+- Make a rough estimate of a project development timeline
+- Make a rough estimate of a development plan
+- Create a project proposal / plan document (after meeting next week)
+
+
+LOADING BETWEEN SCENES
+One of the issues highlighted by Dr. Williamson with their application's development was loading between scenes.
+One scene ends by triggering some event which transitions into a loading screen (developed by the user) which when the scene has loaded then transitions into the next scene.
+Simply right?
+Well not exactly. 
+You shouldn't use the typical approach for scene transitions in Unity because the frame rate is at risk (kill the frame rate at a loading screen because it doesn't really matter and the resources are better spend elsewhere)
+SteamVR instead has a method to load between scenes which transitions breifly to the default loading space (which happens to be the SteamVR home space or something)
+Dr. Williamson couldn't get this to go straight to their own loading screen without first going here for a few seconds.
+She combat this problem by just making the entire room black.
+So you saw a few seconds of complete darkness before the actual loading screen kicked in.
+It would be better to go straight to the loading screen.
+I need to see how to change the default space used by SteamVR and make it easily changed if it isn't.
+Asynchronous loading - look into that
+
+GUI FRONT END TOOL DEVELOPMENT
+The user should be able to interact with the scripts via a GUI menu (VRTK has its own menu component like the Unity Inspection menu)
+I need to figure out how to create some simple example scripts which can be interacted with via this GUI
+I've the idea of "established defaults" and so it would be great to be able to change the values in a menu opposed to digging through a script
+I essentially need to learn how to make a Unity GUI tool and get it so it's able to change some established default value of the script its working with
+
+CAMERA POSITIONING
+Another issue I'm going to have to look at more is how the Unity camera works (in VR and non-VR applications)
+One problem Dr. Williamson, Debbie and Dennis faced when developing their application was they wanted to start user with the camera facing the other way after a scene transitions
+This was apparently a lot harder and more complex than it should have been
+This also was an example of some of the challenges faced with the general camera controls, camera placement and camera movement
+So this idea of changing a camera position / perspective both between scenes and during scene setup
+I'm going to have to look into Unity cameras quite a bit
+
+SKYBOXES
+Yet another challenge faced by Dr. Williamson was changing the skybox of the scene
+Some of the reasoning for this is explained below (TL;DR: Hard coded values and stub methods)
+The best she could manage was to change one of the skyboxes to a nice solid red
+Pity it wasn't meant to be red
+I'll need to look into skyboxes some more
+Bungie makes some incredible skyboxes. Also the Spyro games on the PlayStation 1 did as well. SkyHype.
+
+EVENT HANDLING & OBJECT INTERACTION
+Another thing to know about is event handling and object interaction
+Working with actions which are assoicated with objects and interactions
+Interacting with objects with more precision - giant cubes are very precise
+The need for more complex and detailed / fine grained object interaction
+The notion of interacting with an object to tigger some event (triggering events based off some user interaction)
+Example - Push a button which start and stop a timer
+Example - Push a button to spawn some items in the world
+Example - Make it so when to specific objects collide that a certain particle display occurs
+Example - Use a key to unlock a door
+
+MISC DEVELOPMENT THINGS
+Avatar movement - teleporting and walking around a space
+Rendering - just rendering in general is something I'll need to know more about (fully understand the purpose of and how to use Valve's The Labratory renderer)
+
+DEVELOPMENT PROCESS / TIMELINE
+In terms of what to have done before Christmas, Dr. Williamson suggest getting a solid, easily extended framework in place and say 3-5 key features. Additional features can be easily slotted in and with this tool kit we can easily setup a new project, interact with some objects and easily transition between scenes with a custom loading screen.
+There's the core set of features needed to get a project up and running. We build from that base.
+In terms of shipping on the Unity asset store (see below) earlier is better as we can incorporate feedback and metrics into the report.
+Launch early with key features and chip away and patch new features in rabidly. It'll need to have some unique / novel feature to get approval though. 
+I'll need to look into that. 
+This idea of a lightweight, easy to setup and allowing for fast development.
+Perhaps its initial release is more developer focused in that in just handles some common SteamVR tasks and a few other novel things as well such as loading screens.
+I'll need to think about / look into that.
+
+TAG LINE
+"It's everything SteamVR doesn't do"
+Part of the problems faced with skyboxes, scene loading, etc. is that SteamVR contains some stub methods and hard coded values. 
+In theory it should be possible to do what we are attempting to do its just that the method hasn't actually been implemented.
+Or we can't change that colour because despite passing in the colour we want its actually hard coded so our passed in value is never used.
+Apparently a lot of the problems faced are due to lack of or poor implementation.
+It's my job to either fix that or make it much, much simpler (although perhaps slightly less flexible)
+
+Question: What platforms to target?
+In terms of MoSCoW: Vive is our Must have whereas Oculus is Should / Could Have depending on how development goes
+I would like it to support both Oculus and Vive but time is a constraint. 
+Perhaps that's my fun project once the Oculus Go is released.
+Actually what am I doing at Christmas?
+Vive primary focus (might play with Oculus after doing some reading)
+That might be better as a separate tool though.
+A machete over a swiss army knife. "That's not a knife. This is a knife!"
+[GoT 5 vs. 1 (King Robert 5 vs 1 speech)]
+
+Question: When should this thing be on the asset store?
+You want to release it so that there's enough time to get some metrics and feedback.
+This covers all the bases and your back in the report.
+Shows that people are actually using the product and the feedback can help form the basis for future development. 
+Aim for releasing earlier rather than later.
+New features can always be patched in.
+I need to find out what the timing is for getting approval of a Unity patch.
