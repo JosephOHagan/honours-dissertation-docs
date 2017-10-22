@@ -1,5 +1,5 @@
 # VR Development Toolkit
-The aim of this project is to build a virtual reality development toolkit aimed at non-technical developers working with mobile VR headsets.
+The aim of this project is to build a virtual reality development toolkit aimed at non-technical developers working with the HTC Vive headset.
 
 The Unity platform (https://unity3d.com/) makes it possible to create complex environments using a graphical user interface, but many of the more advanced features are difficult to implement without extensive programming experience.
 
