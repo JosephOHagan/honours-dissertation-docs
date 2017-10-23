@@ -1,33 +1,61 @@
-Client:
-http://dennisanddebbie.club/
-
-Similar Tools:
-VRTK : https://vrtoolkit.readme.io/
-Newton VR : https://newtonvr.readme.io/
-SteamVR : https://developer.valvesoftware.com/wiki/SteamVR
-
 C# Resources:
 Threading in C# Resource (Recommended) : http://www.albahari.com/threading/
 
+Unity Documentation:
+Unity Manual : https://docs.unity3d.com/Manual/index.html
+
 Unity Tutorials (text):
+Unity Website Offical Tutorials : https://unity3d.com/learn/tutorials
 Recommended Tutorial Which Progresses In Difficulty : http://catlikecoding.com/unity/tutorials/
 
-Unity Tutorials (video):
-https://www.youtube.com/user/GenericSoviet/videos
-
-Unity General:
-A Unity Custom Google Search Engine : https://cse.google.com/cse/home?cx=001712401338047450041%3Acsfhqk-trfa (weird I know)
-
-Unity Documentation:
-Unity Prefabs : https://docs.unity3d.com/355/Documentation/Manual/Prefabs.html (mentioned a lot in VRTK documentation)
-
 VR General:
-Overview of VR Development Process (with Unity) : https://blog.betawave.io/tagged/unity
 VR FPS Counter Script (used in VRTK) : http://talesfromtherift.com/vr-fps-counter/
-VR Techniques, Tips and Tricks (talk) : https://www.youtube.com/watch?v=uTBYyZKwc40&t=6s
-Oculus Connect 3 Closing Keynote (John Carmack Talk - general VR talk) : https://www.youtube.com/watch?v=zlxyjx3bJ28 
 
 VRTK:
 VRTK - Making VR Development Easier For All (talk) : https://www.youtube.com/watch?v=AbIiBrg8yT4
 VRTK Video Tutorial Series : https://www.youtube.com/watch?v=fzRVTjUp00w
 VRTK Offical Video Tutorials : https://www.youtube.com/channel/UCWRk-LEMUNoZxUmY1wO7DBQ/videos
+
+-- 
+
+General Look Into More
+https://www.raywenderlich.com/159552/advanced-vr-mechanics-unity-htc-vive-part-1
+http://russellsoftworks.com/blog/steamvr_01/
+https://livierickson.com/blog/5-minute-script-fire-away-with-the-htc-vive-controller/
+https://github.com/misslivirose/basic-unity-vr
+https://livierickson.com/blog/bubble-blaster-vr-an-htc-vive-mini-game-tutorial-2/
+
+Unity GUI Tool Development
+https://docs.unity3d.com/Manual/ExtendingTheEditor.html
+https://unity3d.com/learn/tutorials/topics/scripting/creating-basic-editor-tools
+
+VR Loading
+https://www.reddit.com/r/Vive/comments/5bg7hi/devs_please_make_customized_load_screens_do_not/
+https://forums.unrealengine.com/development-discussion/vr-ar-development/101925-custom-load-screens-for-steamvr
+https://answers.unrealengine.com/questions/528349/414-loading-screen-for-steam-vr-doesnt-show.html
+https://answers.unrealengine.com/questions/546569/steam-vr-and-loading-screens.html
+
+Unity Loading
+http://blog.teamtreehouse.com/make-loading-screen-unity
+http://www.alanzucconi.com/2016/03/30/loading-bar-in-unity/
+
+Skyboxes
+https://medium.com/aol-alpha/making-sense-of-skyboxes-in-vr-design-3e9f8fe254d3
+https://medium.com/aol-alpha/how-to-design-vr-skyboxes-d460e9eb5a75
+https://docs.unity3d.com/Manual/class-Skybox.html
+https://unity3d.com/learn/tutorials/topics/graphics/using-skyboxes
+https://docs.unity3d.com/Manual/HOWTO-UseSkybox.html
+http://johnstejskal.com/wp/unity3d-how-to-add-a-skybox/
+http://jackw-gamedesign.tumblr.com/post/143572599865/source-style-3d-skybox-in-unity
+https://unity3d.college/2017/05/10/using-steamvr_skybox/
+https://www.reddit.com/r/learnVRdev/comments/5ufc6g/tutorial_creating_custom_vr_unity_skyboxes_of/
+
+Unity Events
+https://unity3d.com/learn/tutorials/topics/scripting/events-creating-simple-messaging-system
+https://unity3d.com/learn/tutorials/topics/scripting/events
+http://www.unitygeek.com/delegates-events-unity/
+https://www.youtube.com/watch?v=ihIOVj9t0_E
+https://stackoverflow.com/questions/36244660/simple-event-system-in-unity
+http://jayanam.com/programming-csharp-unity-events-delegates/
+https://tutorialsforvr.com/handling-ui-events-unity-vr/
+https://www.youtube.com/watch?v=bEkD1eq0XIk
