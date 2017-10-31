@@ -1,0 +1,94 @@
+The following is a general outline of the development plan for what I’m considering to be the first project milestone (the Pre-Christmas milestone) as well as some preliminary notes for what I hope to accomplish over the Christmas break period. The goals for the Christmas break are to be finalised during the final sprint period of the first milestone.
+
+The first two milestone dates are:
+Pre-Christmas 	01/11/17 - 13/12/17 	(6 weeks)
+Christmas  	13/12/17 - 11/01/18 	(4 weeks)
+
+Estimated dates for the renaming milestones are:
+January 	11/01/18 - 01/02/18	(3 weeks)
+February 	01/02/18 - 01/03/18	(4 weeks)
+March		01/03/18 - 22/03/18	(3 weeks)
+
+Pre-Christmas Milestone Goal
+Ideally I want it up on the asset store by end of January at the latest. 
+	- This gives two months of feedback to tie into the evaluation section of the dissertation
+	- It highlights bugs which can be fixed as new features are added via patches 
+	- It can highlight flaws in the design which can be tweaked, streamlined and improved
+
+The best time for submission to the Asset store is over the Christmas break as approval takes 14 days and you may be required to make changes to the application
+
+Meaning I need a submittable core set of features developed by end of the Pre-Christmas milestone with either an approval and live product at the start of January or being given a list of changes to make with a revised approval live at the start of February
+
+I’ll leave the features to implement slightly flexible and open to feature discover for now but I want the core set of interactions features that are needed for approval.
+
+Additionally you want to end in a place were the more complex features are starting to take place and be experimented with. 
+Using buttons as an example, it may implement horizontal and vertical buttons (simple buttons) Pre-Christmas and have some proof of concept (POC) work done for more complex buttons which are anchored to objects opposed to the world. 
+
+A rough MoSCoW estimate would be as follows:
+
+Must Have
+Simple Buttons (horizontal & vertical)
+Simple Drawers (there might not be any complex functionality but better to be conservative)
+Object Interaction
+Teleportation & Movement System
+Controller Configuration When Interacting With Objects
+
+Should Have
+Loading Scene Transitions
+Example Scenes For Asset Store Publication
+Documentation For Asset Store Publication
+Complex Buttons (proof of concept)
+Complex Drawers (proof of concept)
+
+Could Have
+Leaver Interactions (pull based objects)
+Doors Interactions 
+Cupboard Interactions
+Controller Button Mapping
+Complex Buttons (implemented)
+Complex Drawers (implemented)
+
+Won’t Have This Time
+[see other project requirements documents]
+
+Note: This is subject to change
+I might find that the button anchored to another object is more straightforward than I anticipate and choose to develop that over drawers for example
+I might discover additional features which can be easily implemented to free up time later for the more complex features
+Such changes will be documented and justified
+
+Breaking this work into a rough estimate of three sprints (of two week durations per sprint) while leaving room for feature discovery and tasks taking longer than expected
+
+Rough Time Estimates : 6 Week Milestone (2 week sprints)
+Sprint 1 (01/11 - 15/11)
+Additional background reading and planning
+Simple object interaction
+Simple movement and teleportation
+Simple controller configuration
+Simple buttons (time dependent)
+
+Sprint 2 (15/11 - 29/11)
+Simple buttons
+Simple drawers
+Any outstanding / complex variants of backlog or unfinished tasks
+More complex object interactions
+Feature discover tasks
+Documentation for asset store
+Preparation work for dedicated sprint 3 work (we don’t have classes so focus entirely on project)
+
+Sprint 3 (29/11 - 13/12)
+Finishing off outstanding tasks from above (if necessary)
+Scene loading transitions
+Example scenes creation for asset store
+Documentation for asset store
+Christmas break milestone planning
+
+
+Christmas Break Goals
+Remember that the lack of Vive might hinder the ability to test and develop some features easily
+
+A collection of ideas towards the Christmas Break goals include:
+- Start writing the dissertation: requirements section and note work on design / implementation sections
+- Submit for publishing on asset store (finalising documentation for asset store and then submission)
+- R&D work on more complex features such as automated testing
+- Quick and simpler task work (small non-essential features which can be quickly implemented) 
+- Additional example scene creation
