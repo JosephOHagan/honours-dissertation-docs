@@ -1,15 +1,29 @@
+The general “time log style sheet” is:
+TIME SPENT: TL;DR SUMMARY
+ADDITIONAL COMMENTS
+
+[Put in place week starting 08/11/17]
+
+Week Starting: 27/09/17 
+
+Note: Weeks start on a Wednesday as that’s the day I have supervisor meetings
+
 01/10/17 
-1 hour: Repository and documentation setup and read project guide and assessement documentation. Thought about general ideas for project and what I'll need to do to get started / review / look into further. Setup Trello board. Planned intial starting work / things to look into further.
+1 hour: Repository and documentation setup and read project guide and assessment documentation. Thought about general ideas for project and what I'll need to do to get started / review / look into further. Setup Trello board. Planned initial starting work / things to look into further.
 
 02/10/17 
-30 minutes: Setup of LaTeX and dissertation template - check compiles and formats correctly (it does though my LaTeX is rusty - may also setup build.xml similar to team project last year). Unity setup and borrowed an unloved copy of "C# Yellow Programming" book to skim through to "sharpen" those C# skills. Curated additional reading and viewing material for tomrrow. Updated meeting minutes with Friday's "meeting" notes from notebook.
+30 minutes: Setup of LaTeX and dissertation template - check compiles and formats correctly (it does though my LaTeX is rusty - may also setup build.xml similar to team project last year). Unity setup and borrowed an unloved copy of "C# Yellow Programming" book to skim through to "sharpen" those C# skills. Curated additional reading and viewing material for tomorrow. Updated meeting minutes with Friday's "meeting" notes from notebook.
 
 03/10/17
-1 hour 30 minutes: Spent time reading "The Yellow C# Book" to get familar with the language again because it has been a while and the work I did with it was very small. Read most of the first 3 chapters of the book. Hope to have what remains of chapter 3 and the remaining 2 finished by Thursday. Coded some simple example programs.
+1 hour 30 minutes: Spent time reading "The Yellow C# Book" to get familiar with the language again because it has been a while and the work I did with it was very small. Read most of the first 3 chapters of the book. Hope to have what remains of chapter 3 and the remaining 2 finished by Thursday. Coded some simple example programs.
 
 1 hour 30 minutes: Spent time researching VRTK and Unity itself. Found a handful of other links and resources to look into. I have a very rough idea of what VRTK is and how it works but will need to spend more time looking at it and Unity in general. Part of the project seems to be to solve the technical mess which I expect is using tools like VRTK is for certain tasks. Perhaps asking what's an example feature / task which I could simplify might be the way to start. 
 
-In general though I expect the simplistic VR application would be to setup a plane to move / look around in. Setup some lighting for the space. Set off some particles preferably in the sky / skybox. Stand back and admire the particle fireworks.
+In general though I expect the simplistic VR application would be to setup a plane to move / look around in. Set up some lighting for the space. Set off some particles preferably in the sky / skybox. Stand back and admire the particle fireworks.
+
+
+
+Week Starting: 04/10/17
 
 04/10/17
 That's right we're keeping this daily chain of work going however small the work might be. That's right at least 30 minutes of dissertation work everyday. Some days I hope to commit fully to it once the VR lab is setup and things are slightly more development focused.
@@ -41,11 +55,11 @@ Scotland failed to qualify for the World Cup play offs with a level of disappoin
 30 minutes: Trello setup and general Unity research 
 
 09/10/17
-1 hour 30 minutes: Finished up that Yellow C# textbook but I'd like to spend a little more time looking at delegates in particular
+1 hour 30 minutes: C# and its delegate system
+Finished up that Yellow C# textbook but I'd like to spend a little more time looking at delegates in particular
 
 1 hour 30 minutes: Worked on Unity tutorials.
-
-It was my intention to do more but a plug decided to trip, overload, I don't know what, in the kitchen at my flat. Now I'm not an electrican but generally when the switch part of a plug is hot that's not a good sign. What makes it better is that it is literally sealed into kitchen tiles with grout. That'll be fun to get off. My flat mate panicked as if he's never been in a situation where something has gone wrong in a flat before. I just wanted to flip the fuse at the fusebox itself but I did the "responsible" thing and contacted my landlord first. Let the record show he did everything I intended to do. I've never had a plug get stuck in the ON position. That and the heat was the worrying part.
+It was my intention to do more but a plug decided to trip, overload, I don't know what, in the kitchen at my flat. Now I'm not an electrician but generally when the switch part of a plug is hot that's not a good sign. What makes it better is that it is literally sealed into kitchen tiles with grout. That'll be fun to get off. My flatmate panicked as if he's never been in a situation where something has gone wrong in a flat before. I just wanted to flip the fuse at the fuse box itself but I did the "responsible" thing and contacted my landlord first. Let the record show he did everything I intended to do. I've never had a plug get stuck in the ON position. That and the heat was the worrying part.
 
 That took 2 hours of my life to deal with and it still won't be fixed until Friday.
 
@@ -57,22 +71,145 @@ My landlord showed up prematurely to deal with the plug situation which ruled th
 
 At least tomorrow and Thursday I should be able to focus fully on the project.
 
-11/10/17
 
-3 hours: Task planning for next week's work and general VR research. Had meeting with Dr. Williamson to discuss lab setup. Will meet again tomorrow at 14.30 to play with the Vive, I mean do very important and hard work and setup the Vive configuration with some Steam games and VR... VR
+
+Week Starting: 11/10/17
+
+11/10/17
+3 hours: Supervisor meeting and general VR research
+I did some general VR research background reading. It’s too interesting. I keep getting distracted reading about stuff like Asynchronous Spacewarp.
+
+ASYNCHRONOUS SPACEWARP 
+
+(I may have stolen the TL;DR: note system from an Oculus article on this very subject https://developer.oculus.com/blog/asynchronous-spacewarp/ -- TRADE SECRETS)
+
+Also I had meeting with Dr. Williamson to discuss lab setup. Will meet again tomorrow at 14.30 to play with the Vive, I mean do very important and hard work and setup the Vive configuration with some Steam games and VR... VR
+
+12/10/17
+4 hours: Vive Orientation
+Dr. Williamson showed us how to set up the Vive after which I proceeded to spend the afternoon playing Vive games and getting a feel for using it. There were some other students present but unfortunately they had to leave midway through our play session to go to a tutorial or something. I luckily didn’t have a class so was free to play with the Vive. I only managed to check out 3 of the games we have access to for the Vive: Tilt Brush, Waltz of the Wizard and Rec Room.
+
+I wish I had my own VR room.
+
+13/10/17
+
+14/10/17
+General Unity Development
+I spent some more time just getting familiar with Unity and working through some simple non-VR Unity projects.
+
+15/10/17
+Bloody Amazon online interviews wasted most of the day I was hoping to use for work. There are multiple parts both of which take like 2 hours all things considered.
+
+16/10/17
+
+17/10/17
+C# Development
+I spent some time looking into aspects of C# which I’ve yet to get familiar with. Threading to be specific. There’s a recommended resource on it so I’m working my way through it.
+
+
+ 
+Week Starting: 18/10/17
+
+18/10/17
+Meeting and Scene Loading
+One of the problems Dr. Williamson highlighted in today’s meeting was the problem of scene loading. After the meeting I took a shot at creating an example of the effect that they experienced. I managed to get transitions between scenes working and I went to the interim area though I have no idea to fix that. It’s a good idea though so will need to explore again after some background reading.
+
+19/10/17
+Event Handling & Object Interaction Research
+I did some general reading into the Unity event system and object interaction. I spent a lot of time thinking about picking up objects in VR. When you pick up an item does your hand become the item or does the controller remain present? If the item cannot go through a wall should your controller ghost through it? Should your controller be a physical object or transparent ghost-like outline? There’s a lot to think about in regards to controllers.
+
+20/10/17
+
+21/10/17
+Custom Inspectors & Windows Research
+I did some general reading into the development of custom inspectors and windows for Unity. I took a look at the VRTK GUI design and wow… 
+Actually sitting down and looking at its layout and design it’s certainly something.
+I attempted to make a simple example custom inspector but it was going nowhere so I looked out a better resource to follow along and called it a day
+
+22/10/17
+Button Example
+I made a simple button example using pure SteamVR which when the button is pressed triggers some timer event. This timer event could of course be substituted for some other event such as spawning a box or unlocking a door.
+What’s next I’m thinking is to recreate a similar example using VRTK (and I’m thinking it’s time to dive properly into NetwonVR) and compare and contrast the methods. I’ll take a look for other methods of implementation as well.
+
+23/10/17
+Custom Inspector Example
+I made a simple custom inspector example to change the material colour of some object. It’s a simple but it explains the basics of creating a custom inspector and providing the user with information through labels and text. I still need to do a custom editor window at some point though I’ve found a resource which should allow me to make a similar customer editor window.
+
+24/10/17
+NewtonVR research
+I spent some time reading up on NewtonVR in more detail now that VR development does seems as intimidating. In particular I was interested in what VR developers prefer using it for over VRTK. 
+In general the feedback is quite mixed in that some people much prefer the physics system (I might be one of them). It also has some nice additional features such as the sound-collision framework built-in for easy use by the developer
+
+Week Starting: 25/10/17
+
+25/10/17
+2 hours: Debbie & Dennis code review meeting
+Today I met Debbie and Dennis for a “client meeting” type of interaction. I recorded the meeting for reference purposes (though the audio isn’t the greatest). Before we sat down and did a “code review” style of exercise where they experienced project PTSD and highlighted all the key areas they struggled during development, I got the chance to enter and play around with the Intern experience they created. You could see some of the bugs and issues they experienced during development such as the ghosting of items into other items and the irregular functioning drawers. During the meeting I asked questions, though Debbie and Dennis were great as they answered a lot of questions before I even got a chance to ask them. The plan now is to take that audio recording, write up a general transcript style of document with notes and write up a more formal set of requirements for the project.
+
+26/10/17
+1 hour: Meeting transcribing
+Spent some time starting to write up the meeting. This is going to take some time. The general approach right now is to listen to a small section and then write up a general overview of what was discussed. Typically I add a few comments and notes regarding and expanding on what was said. Occasionally when I have a feature or example scene idea I outline that.
+
+27/10/17
+2 hours: Meeting transcription
+Spent some more time writing up the meeting. Its pretty much finished entirely now though it will require tidying up and further refinement. 
+
+28/10/17
+
+29/10/17
+1 hour: Editor Window example
+I implemented an editor window example which changes the colour of materials of objects. It's very similar to the custom inspector example that I did except that it is its own window opposed to being tacked onto the inspector window. I’ll probably have to look at these some more.
+
+30/10/17
+2 hours: Initial requirements planning & development strategy work
+I spent some time thinking about the release strategy for the project - when the project should roughly first go live on the Unity Asset store in order to maximise 
+
+31/10/17
+BOO!
+
+
+
+Week Starting: 01/11/17
+
+01/11/17
+2 hours: State Machines & Meeting
+I spent some time thinking about the concept and use of state machines in game development. I hadn’t actually done this before. It’s a very interesting idea. State machines are cool. I spoke with Dr. Williamson about Dr. John Williamson’s C# state machine that he made. A “developer’s state machine” is what she called it. Pure. It would be nice to get that into the project though I fear time may not be on my side. Actually scrap that. State machine is going in. 
+
+02/11/17
+1 hour: Unity Library Creation Research
+I spent some time trying to find the additional steps required in Unity library creation as suggested by Dr. Williamson. I did find a few things though will need to spend some more time looking into this topic. 
+
+03/11/17
+04/11/17
 
 05/11/17
-
-Revised D&D meeting notes on repository
-Formatted D&D meeting notes as PDF on repository
-Requirements refinement and discovery
+Requirements Refinement - MoSCoW Style
+I parsed through the Debbie & Dennis meeting notes properly and wrote up a rough set of MoSCoW requirements. I have that problem of “Well let’s just do everything” though I think I’ve managed to get a decent set together. I’ve left it loose enough so that additional requirements may be planted and grow. They might be in place of or in addition to some of the existing ones.  I’ll need to reformat the rough development plan which I created though to account for this more concrete set of requirements.
 
 06/11/17
-
-Further requirements refinement
+Requirements Refinement - Non-Functional / MoSCoW
+I spent a little time finishing off the MoSCoW requirements document and working on some non-functional requirements. Those might be a bit harder to do. I’ll need to 
 
 07/11/17
+GUI Design
+I spent some time looking into GUI and interface design to make my interface user friendly opposed to other systems (VRTK) which are so dense and cumbersome that they are overwhelming to new and non-technical developers. I’m kind of playing the role of Apple in this project. Sure it does a lot of what the competition does and it’s only got a few unique and new ideas but it just look how easy and straightforward it is to make this drawer work. 
 
-Refined project planning schedule
 Started sorting examples and notes
-Started parsing all notes for additional ideas
+My desktop, notes and examples organisation currently look like the Central Bureaucracy from Futurama. 
+
+
+
+Week Starting: 08/11/17
+
+08/11/17
+1 hour: Requirements refinement & repository organisation
+Collected notes and example demos for sorting, additional requirements refinement and planned repository structure.
+
+1 hour 30 minutes: Fixed the time log
+Maybe don’t forget to commit time log changes and have different parts of it scattered about in different files. At least the lesson was learned early. Also it gave me an opportunity to restructure the format to make it human readable. A similar thing happened with the meeting minutes earlier in the project now that I think about it. Well I never make the same mistake thrice. I’ll reorganise the Trello page and make it public later today as well.
+
+The general “time log style sheet” I hope to hit is:
+TIME SPENT: TL;DR SUMMARY
+ADDITIONAL COMMENTS
+
+Weekly Time Estimate (Hours) : 
