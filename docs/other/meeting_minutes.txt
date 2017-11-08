@@ -296,3 +296,107 @@ Shows that people are actually using the product and the feedback can help form 
 Aim for releasing earlier rather than later.
 New features can always be patched in.
 I need to find out what the timing is for getting approval of a Unity patch.
+
+######################################################################
+
+25/10/17: Supervisor Meeting - Debbie & Dennis Edition
+
+This week's meeting consisted of a "requirements gathering" type of session with VR artists Debbie & Dennis
+
+See DnD_October_Meeting document for a general transcript / notes from the meeting
+
+######################################################################
+
+01/11/17: Supervisor Meeting 
+
+TL;DR:
+
+I scheduled a meeting with Debbie & Dennis for next week hopefully. I thought it was this week (my bad I should have followed up on that). If they can't attend then Dr. Williamson will just run me through the NewtonVR code and get an emailed list of requirements which should suffice. 
+
+Some things to look into:
+- The Unity Library creation process
+- Additional resources and requirements for publishing on Unity asset store (make a list of what needs to be done to get approval)
+- The academic hoops to jump through regarding using user feedback from Unity asset store in evaluation
+
+Some documentation work:
+- Refine requirements MoSCoW and non-functional requirements
+- Refine development plan up until Christmas break
+- Copy of Debbie & Dennis meeting write up onto repository
+
+Additional tasks:
+- Read through all notes made so far and generate ideas for features / development
+- Get a key for the VR room (though it will be moving soon -> probably the day I pick up the key)
+- Play around with some wireframing / sketches of GUI and interaction style of diagrams
+
+STATE MACHINE
+I asked about the State machine that Dr. John Williamson produced as part of the Intern project
+Its as pure a developers state machine as it gets
+I must stress that in its current form is a developer's state machien
+Essentially its a scene transition state machine in that the developer sets it up so that one scene transitions to another given some event
+So you've got a but on scenes and you set up the conditions and events to transition from one to the next
+This would require setting up a GUI interface where the user simply sets the conditions to transfer from one scene to another
+Its an interesting idea though I fear it will not be implemented due to the time constraints put on the project
+For now will be considered a "Could Do" goal in the MoSCoW planning 
+If not implemented can be one of the "Well they system could be improved / extended to include..." types of things for the dissertation
+
+UNITY LIBRARY CREATION
+Dr. Williamson seems to remember that there are a few extra steps required in Unity library creation process
+I’ll need to look into this and do a simple "Hello World" style of application
+In addition to this I'll need to do further investigation into the procedure for launching a product on the Unity asset store
+
+UNITY ASSET STORE & DISSERTATION ETHICS WARNING
+I intend to use user feedback from the Unity Asset store in my dissertation
+Regarding the Unity asset store approval I'll need to make a list of all the things I need to do to get approval on the store
+E.g. Is there a special project structure required for submission, etc.
+Additionally, before the Christmas break I should make arrangements and seek out all of the ethics concerns that the university might have if I intend to use user feedback taken from the Unity asset store in my dissertation
+Dr. Williamson said that it'll be fine to use but there will most likely be an extra hoop to jump through
+So just figure out the ethics of using that user feedback in the dissertation before Chirstmas
+
+GENERAL DOCUMENTATION
+I'm allowed to reference the meeting notes I created based on my meeting with Debbie & Dennis last week in the dissertation itself
+In general I should tidy it up somewhat, check over some of the details and flesh out some of the points
+Probably compile it into a PDF and upload that alongside the raw text file on the repo
+I might do this for other pieces of documentation as well just so that they are clearer and easier to read
+It  will also give me a chance to review all of the notes taken thus far for ideas to help flesh out the features
+
+DOCUMENTATION REQUIREMENTS FLESH OUT
+I should continue to expand and flesh out the feature list / MoSCoW planning
+At some point I'll take a look at that "dissertation Hall-of-Fame" to see how similar dissertations frame the requirements section
+Regarding the feature list itself, I'll flesh out a MoSCoW list and some non-functional requirements
+In terms of the actual features I'll write out what I've found so far but leave myself enough room for feature discovery
+
+NON-FUNCTIONAL REQUIREMENT: NUMBER OF CLICKS
+On the subject of non-functional I mentioned that the “number of clicks” was relative to the task being performed 
+One thing to do might be to work through development using the different toolkits and count the number of clicks VRTK takes over Newtown
+Really study the interaction that the user has in detail
+Dr. Williamson just suggested that the non-functional requirement in that case would be along the lines of “The user’s task will be accomplished in the minimal possible amount of clicks”
+
+WIREFRAMES & GUI DESIGN
+We also spoke about the importance in creating a user friendly GUI interface for the application
+A UI with helpful and informative descriptions of what each section does and what changes will do 
+I should think about and investigate different methods of displaying info to the user
+
+It might help to draw up some interaction diagrams like we did in Interactive Systems last year
+Map out the possible ways and steps a user will take to complete a given task 
+Iterate on this design and attempt to build the system to automate and minimise this process
+It might also help to do this for existing toolkits as a means of comparison between existing systems and my own system - from a design and usability perspective 
+
+An example is to consider the hinges used for drawers and doors
+Dr. Williamson’s main point here was the horrific mess it turns the GUI into when attempting to work with them
+Its information overload and you have no idea half the time what you're changing
+Instead I need to think about how I could redesign this process to make it more user friendly
+How can I communicate to the user what each section is for and does
+How can I explain how changes to one subsection echo through the setup and might break things
+
+In general just make the GUI in general less dense and more user friendly whilst making it explain itself better to the user
+Labels and notes telling you what a particular thing is for and how changing it might break something else
+Explanatory text and names to help guide the user
+Stuff like that
+
+SUPER HOT!
+I reminded Dr. Williamson that Superhot VR was currently on sale as part of the Steam Halloween sale
+SUPER HOT!
+We tried to buy Superhot VR edition but were unsuccessful though Dr. Williamson said she would head down before the sale was over and purchase it
+SUPER HOT!
+I'm really looking forward to getting a chance to try out the game in VR
+It's very useful to see what other developers are doing after all and take ideas
