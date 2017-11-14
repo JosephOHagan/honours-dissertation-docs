@@ -59,17 +59,9 @@ Scotland failed to qualify for the World Cup play offs with a level of disappoin
 Finished up that Yellow C# textbook but I'd like to spend a little more time looking at delegates in particular
 
 1 hour 30 minutes: Worked on Unity tutorials.
-It was my intention to do more but a plug decided to trip, overload, I don't know what, in the kitchen at my flat. Now I'm not an electrician but generally when the switch part of a plug is hot that's not a good sign. What makes it better is that it is literally sealed into kitchen tiles with grout. That'll be fun to get off. My flatmate panicked as if he's never been in a situation where something has gone wrong in a flat before. I just wanted to flip the fuse at the fuse box itself but I did the "responsible" thing and contacted my landlord first. Let the record show he did everything I intended to do. I've never had a plug get stuck in the ON position. That and the heat was the worrying part.
-
-That took 2 hours of my life to deal with and it still won't be fixed until Friday.
 
 10/10/17
-
 3 hours: Finished up some Unity tutorials and experimented with repositories and Unity projects.
-
-My landlord showed up prematurely to deal with the plug situation which ruled the evening's work out AGAIN. And he's still coming back to do more on Friday.
-
-At least tomorrow and Thursday I should be able to focus fully on the project.
 
 
 
@@ -98,14 +90,18 @@ General Unity Development
 I spent some more time just getting familiar with Unity and working through some simple non-VR Unity projects.
 
 15/10/17
-Bloody Amazon online interviews wasted most of the day I was hoping to use for work. There are multiple parts both of which take like 2 hours all things considered.
+Amazon online interviews used up most of the day which I was hoping to use for work on the dissertation.
 
 16/10/17
+Unity SteamVR Development - Hello World
+I made a simple example "Hello World" application for the Vive using Unity and SteamVR. It's the most basic example where you can  
 
 17/10/17
 C# Development
 I spent some time looking into aspects of C# which I’ve yet to get familiar with. Threading to be specific. There’s a recommended resource on it so I’m working my way through it.
 
+VRTK Development - Hello World
+I went through some simple tutorials on VRTK to make recreate the "Hello World" style of application I made using pure SteamVR. As VRTK is code free but chaotic I was also able to add some object highlighting when you hover over the item to pick up and a basic teleportation movement system. My initial impressions of VRTK is that although it handles a lot of the coding for you it still requires a lot of technical setup that's VRTK specific. Also the lead developer's accent in his overview videos is that strong Birmingham whine that just gets under your skin.
 
  
 Week Starting: 18/10/17
@@ -119,6 +115,9 @@ Event Handling & Object Interaction Research
 I did some general reading into the Unity event system and object interaction. I spent a lot of time thinking about picking up objects in VR. When you pick up an item does your hand become the item or does the controller remain present? If the item cannot go through a wall should your controller ghost through it? Should your controller be a physical object or transparent ghost-like outline? There’s a lot to think about in regards to controllers.
 
 20/10/17
+Unity SteamVR Development - Hello World Projectiles
+I made an extended version of the SteamVR Hello World box pick up example. Now when you pick up the box and press the triggers on the controllers it starts firing spheres.
+
 
 21/10/17
 Custom Inspectors & Windows Research
@@ -211,5 +210,30 @@ Maybe don’t forget to commit time log changes and have different parts of it s
 The general “time log style sheet” I hope to hit is:
 TIME SPENT: TL;DR SUMMARY
 ADDITIONAL COMMENTS
+
+30 minutes: NOTEBOOK OF THINGS I DON'T KNOW ABOUT
+Richard Feynman as a graduate student when faced with preparing for his second year oral examinations opened a fresh notebook and on the title page wrote: NOTEBOOK OF THINGS I DON’T KNOW ABOUT. Today I opened a notebook, titled similarly, and began the process of deconstructing and decompiling everything I don't know about VR and game development.
+
+09/11/17
+1 hour: Repository and note organisation
+I spent some time continuing to get the repository into order. I set up two separate respositorys which act as a project index. One is for VR development while the other is for general game development and has a Unity section. Both contain a list of related examples and applications which I created to learn Unity, VR development, etc. I also started collecting the various notes and projects that I have together. I forgot that I broke a lot of the example applications which I made while playing around with things. I'll fix the broken ones and get them onto a separate repo / added to the index.
+
+10/11/17 & 11/11/17
+I didn't work on the dissertation today. 
+I blitzed through a computer architecture assessed exercise.
+I decided that I should also probably start preparing for a job interview at Amazon on the 17th.
+
+12/11/17
+1 hour: VRTK interaction mapping overview
+I spent an hour going through my original VRTK example making notes of the different steps involved in making an object interactable, adding highlighting on hover and setting up teleportation. Some of the steps aren't as jarring or complex the second time around though they attempt to cram a lot into a single step which I think overcomplicates some tasks. It may be a lack of documentation, explanation or the poorly design GUI component. I'll need to take another look at this in some more detail and plan a POC according. 
+
+Making a simple VR POC seems unlikely for this week. What I might do instead is make a non-VR POC (that is take one of the existing examples that I made and add a GUI component to change and alter some of its aspects). I have a simple graph animation visualisation thing which could be a candidate for that.
+
+1 hour: Unity physics research
+I spent some time looking to the Unity physics system again. As this forms basis for how the joints and colliders work, which I anticipate will feature heavily in the pre-Christmas development work, I think it best to get a good understanding of how they operate and work. 
+
+13/11/17
+
+14/11/17
 
 Weekly Time Estimate (Hours) : 
