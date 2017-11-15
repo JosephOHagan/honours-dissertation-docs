@@ -242,4 +242,9 @@ I spent some time cleaning up and preparing the graph visualisation before turni
 14/11/17
 1 hour: Spent time refining the development plan in light of forgetting to account for course work
 
+1 hour: Unity Joints and Colliders
+I spent some time looking over and investigating Unity joints and colliders again. Made a simple example using hinge joint. I'm not entirely sure yet if it will be better to use a hinge joint or to make a my own using the customisable joint yet. Perhaps the best course of action there will be to POC both and see which works better and is more customisable. Perhaps including a simple door and customisable door might be useful. That is the simple door is very limited from a development standpoint but the customisable door is a lot more flexible though requires additional setup and work from the user.
+
+1 hour: Started a design note folder and started investigation into streamlining initial project setup
+
 Weekly Time Estimate (Hours) : 
