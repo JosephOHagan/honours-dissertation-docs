@@ -1,0 +1,81 @@
+PREAMBLE
+I didn't account for coursework in my original development timeline.
+
+That was a mistake.
+
+Well things are somewhat better and more balanced again. 
+
+
+PRE-CHRISTMAS BREAK PREAMBLE
+There are 4 weeks until the Christmas break.
+
+A status report is due on 15/12 at 17:00 - I will write that on 13/12 and 14/12
+
+I've 3 assessed exercises to finish this term and I lose an additional 2 days on the 16th and 17th going to London for a job interview. Call that about a week's worth of work.  
+
+That leaves roughly 3 full time weeks on the dissertation and project (we're given 2 but if I manage my time correctly I should be left with 3). 
+
+A lot of the preliminary work has been done, what's left is to get the a POC version made and refined with a core feature set. 
+
+My initial plan was to ideally get it into a state that could be submitted for approval on the Unity asset store by end of year.
+
+That seems ambitious though a lot will be dependent on the progress made in the 3 week period of 22/11 - 13/12.
+
+Note: I intend to work over the Christmas break on aspects of the dissertation as well.
+
+
+DATES & DAYS
+Day Counter:
+Weeks Left		 						 	  18
+Days Left 									 126
+
+Deadlines:
+Status Report 							15/12/17
+Dissertation Deadline 					21/03/18
+Presentation 							23/03/18
+
+Semester 1 milestone dates:
+Pre-Christmas 	15/11/17 - 13/12/17 	(4 weeks)
+Christmas  		13/12/17 - 11/01/18 	(4 weeks)
+
+Estimated Semester 2 milestone dates:
+January 	11/01/18 - 01/02/18			(3 weeks)
+February 	01/02/18 - 01/03/18			(4 weeks)
+March		01/03/18 - 22/03/18			(3 weeks)
+
+
+PRE-CHRISTMAS GOALS
+TL;DR: Get it into as complete a state to submit for approval to the Unity asset store as possible. Features include a mix of controllers and setup, teleportation, simple interactions such as grabbable objects and some complex interactions such as drawers, doors and buttons. Possibly scene loading transitions and skybox setup.
+
+General Feature List:
+Simple Buttons (horizontal & vertical)
+Simple Drawers (there might not be any complex functionality but better to be conservative)
+Object Interaction
+Teleportation & Movement System
+Controller Configuration When Interacting With Objects
+
+Complex Buttons (proof of concept)
+Complex Drawers (proof of concept)
+Loading Scene Transitions
+
+Leaver Interactions (pull based objects)
+Doors Interactions 
+Cupboard Interactions
+Controller Button Mapping
+Complex Buttons (implemented)
+Complex Drawers (implemented)
+
+
+CHRISTMAS GOALS
+TL;DR: Refinement for Unity Asset store submission (if required), dissertation work in the form of writing the requirements / design sections and collecting notes for the remaining sections. Planning the evaluation section based of user feedback from Unity Asset store. Research into the development of the more complex features of the application. 
+
+General Overview:
+Dissertation requirements section
+Dissertation design section
+Collect dissertation notes together
+Plan evaluation section in regards to using asset store feedback
+Plan other sections of dissertation
+Research more complex tasks such as automated testing, etc.
+Smaller tasks and feature development
+GUI refinements
+Unity Asset store example scenes / documentation (if required)

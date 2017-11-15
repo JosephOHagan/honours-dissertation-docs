@@ -233,7 +233,13 @@ Making a simple VR POC seems unlikely for this week. What I might do instead is 
 I spent some time looking to the Unity physics system again. As this forms basis for how the joints and colliders work, which I anticipate will feature heavily in the pre-Christmas development work, I think it best to get a good understanding of how they operate and work. 
 
 13/11/17
+30 minutes: VRTK interaction mapping & background reading
+I spent some more time looking at the interaction system used in the VRTK example.
+
+30 minutes: Graph Animation POC
+I spent some time cleaning up and preparing the graph visualisation before turning it into a POC with additional editor windows. 
 
 14/11/17
+1 hour: Spent time refining the development plan in light of forgetting to account for course work
 
 Weekly Time Estimate (Hours) : 
