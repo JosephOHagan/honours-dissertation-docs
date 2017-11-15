@@ -1,0 +1,79 @@
+VRTK Setup
+
+SETUP DOC
+VRTK uses an SDK Manager to handle setting up everything to use the various supported SDKs via VRTK_SDKSetup.
+An outline of the required steps are as follows:
+1. Import SDK
+2. Create a new empty game object
+	- Add VRTK_SDKSetup onto this new game object
+	- Add the VR SDK's game objects (e.g. the Camera Rig) as children
+	- On the VRTK_SDK_Setup set the SDK Selection to the respective VR SDK
+	- Ensure all the object references are set correctly by Auto Populate (or alternatively set  them manually)
+3. On the SDK Manager under the Setups add a new slot and select the SDK Setup for that slot
+4. Repeat the above steps to add additional SDK Setups to the SDK Manager
+
+SteamVR Specific Instructions
+Import the SteamVR Plugin from the Unity Asset Store
+Follow the above setup steps by adding the [CameraRig] prefab from the the SteamVR plugin as a child of the SDK Setup game object
+
+COMMENTS
+- VRTK is built to use multiple HMDs at once and allows for selection between them
+- My system is focused for SteamVR hence I should be able to streamline the configuration and setup
+
+
+INTERACTION MAP (In Practice - Initial project setup without controllers)
+1. Delete the main camera
+2. Create an empty GameObject and rename it to VRTK_SDKManager
+3. Add the VRTK_SDKManager script onto this GameObject
+4. Create an empty GameObject that is a child of VRTK_SDKManager
+	- Rename it to the specific device being setup for (i.e. SteamVR)
+	- Add the VRTK_SDK_Setup script onto this child GameObject
+	- Drag and drop the SteamVR [CameraRig] and [SteamVR] prefabs onto this child GameObject
+5. In the inspector window of the VRTK_SDK_Setup GameObject select the device (SteamVR) from the quick select dropdown menu
+6. On the VRTK_SDKManager inspector window select auto populate
+7. Changed the positions of the VRTK_SDKManager and VRTK_SDK_Setup to (0,0,0), etc. 	
+8. For additional camera rigs goto 4 and repeat with device specific requirements
+
+COMMENTS
+- (1) You can delete the main camera via a script
+- (2) You can create GameObjects via a script
+- (3 & 4) You should be able to attach a script onto some created GameObject and create a child GameObject
+- (4) You may have to drag and drop the SteamVR prefavbs on manually -- I'll look into that
+- (5) Nothing to select so can preload the information -- simply check the prefabs have been imported
+- (6) Having a separate SDK_Manager might not be required as the toolkit is focused on SteamVR
+		PRO : It is future proofing and allows for expansion with additional devices and SDKs to be added
+		PRO : Doesn't tie the controller scripts directly to a specific camera rig (though this is a null point if it is ONLY intended for one camera rig)
+		CON : Additional work and step to go through during setup
+		CON	: The toolkit might be SteamVR specific hence very little cross functionality between the Vive and Oculus devices
+		-> Dissertation point : The outcome of this design choice
+		-> Dissertation point : Can justify omission by stating in original MoSCoW it was intended to focus entirely on SteamVR hence unnecessary additional work
+		-> Dissertation point : Future work could be to add the SDK_Manager to open up the possibility of additional SDKs
+- (7) You can set the position via script
+- (8) Not required as focusing on SteamVR and Vive			
+
+Questions:
+1. Are you able to import SteamVR via a script
+	- E.g. If the user has not imported SteamVR then it will be imported
+	- Alternatively throw some error message saying to import SteamVR
+
+2. Could setup work as a prefab
+	- That is you simply drag and drop the prefab and it sets up a default scene
+	- There may be problems due to it requiring SteamVR prefabs to work
+	- Possibly have a manual setup method (i.e. a streamlined version of the above) and potentially have the goal of set up achieved through a prefab as a "Could Have" MoSCoW idea
+	
+	
+CONTROLLER SETUP
+Note: 	VRTK uses the SDK Manager to setup script aliases for the left and right controller
+		These scripts tell us which scripts are attached to the left and right controllers of the camera rig
+		They are separated out rather than attached directly to the camera rig in the event you wish to switch camera rig (e.g. you would otherwise be required to repeatedly setup your controller scripts if you switched between camera rigs)
+1. Create an empty GameObject called VRTKScripts	
+2. Create two child empty GameObject called LeftController and RightContoller
+3. Drag and drop these onto respective the script aliases section of the SDK Manager inspector window
+4. Now we attach our VRTK scripts onto the controller objects
+	- Select both controllers and add the VRTK_Pointer, etc. scripts
+	
+	- For VRTK_Pointer this gives the default pointer which doesn't create a visible beem (this requires attaching a pointer renderer)
+	- To each of the controllers add a pointer renderer 
+	- Next specify which renderer to use on each of the controllers by dragging and dropping the pointer renderer component into the "Pointer Renderer" setting of each controllers inspector window setting
+	
+	- To make the controllers listen for events (e.g. button presses) we add the VRTK_Controller_Events component
