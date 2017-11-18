@@ -247,4 +247,29 @@ I spent some time looking over and investigating Unity joints and colliders agai
 
 1 hour: Started a design note folder and started investigation into streamlining initial project setup
 
-Weekly Time Estimate (Hours) : 
+Weekly Time Estimate (Hours) : 10-12 (I should aim for more)
+
+
+Week Starting: 15/11/17
+
+Note: I'm in London on 16/11 and 17/11 for an Amazon job interview
+
+15/11/17
+
+16/11/17
+** London: Amazon Interview **
+
+17/11/17
+** London: Amazon Interview **
+
+Well I won't be working for Amazon anytime soon given how poorly I performed throughout that interview
+
+18/11/17
+
+19/11/17
+
+20/11/17
+
+21/11/17
+
+Weekly Time Estimate (Hours) : 10-12 (I should aim for more)
