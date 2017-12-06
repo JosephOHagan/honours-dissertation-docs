@@ -5,4 +5,6 @@ The Unity platform (https://unity3d.com/) makes it possible to create complex en
 
 This project aims to develop a Unity VR library suitable for artists, with little to no technical knowledge, interested in developing VR content by creating a range of tools which can be used through Unity's graphical editing tools.
 
-Trello Development Board: https://trello.com/b/aBpdM4sM/svra-development
+## Relevant Links
+* The SteamVR Assitant Repository: https://github.com/JosephOHagan/SVRA
+* Trello Development Board: https://trello.com/b/aBpdM4sM/svra-development
