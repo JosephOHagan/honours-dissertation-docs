@@ -95,3 +95,17 @@ https://www.youtube.com/watch?v=r-edgGinqZ0
 https://www.youtube.com/watch?v=5O7aumZ536U
 
 https://www.youtube.com/watch?v=BccNL0Dbt40
+
+https://steamcommunity.com/steamvr
+
+http://steamcommunity.com/app/358720/discussions/
+
+https://github.com/matzman666/OpenVR-MicrophoneControl
+
+https://github.com/lachlansleight/VectorSchool/tree/master/Assets/VRTools/VRInput/Assets/Scripts/Core
+
+https://github.com/lachlansleight/ComputeShaderTutorial
+
+http://www.glenstevens.ca/unity3d-best-practices/
+
+https://www.reddit.com/r/Vive/comments/4m28pl/finding_the_play_area_dimensions/
