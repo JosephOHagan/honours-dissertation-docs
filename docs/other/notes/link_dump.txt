@@ -152,3 +152,47 @@ https://unity3d.college/2016/11/16/steamvr-controller-input/
 http://www.leadingones.com/articles/steamvrcontrollerinput.html
 
 http://joseph-easter.blogspot.co.uk/2016/12/procedural-generation-tutorial-checker.html
+
+Resizing the play area:
+https://github.com/ValveSoftware/steamvr_unity_plugin/blob/5530ef23d00ca1378d3a79cf6c804325cb0d8027/Assets/SteamVR/Scripts/SteamVR_PlayArea.cs
+https://www.reddit.com/r/Vive/comments/4m28pl/finding_the_play_area_dimensions/
+https://steamcommunity.com/app/358720/discussions/0/451850213946074400/
+https://steamcommunity.com/app/358720/discussions/0/353915309338307420/
+
+
+Newton Systems:
+Door - Hinge Joint
+Drawer - Configurable Joint
+Lever - Hinge Joint
+Twist Knob - Hinge Joint
+Slider - Configurable Joint
+Switch - Hinge Joint
+
+
+Some default pull lever methods / button events
+- Spawn an item
+- Move a target
+- Reset some
+- Unlock a door
+
+-> The idea here is to create some default event scripts (spawn an item, unlock a door, reset a scene, etc.) which can then be setup with the lever or button easily
+
+Debugging Tool
+-> Reset the scene from within the Unity instance
+-> Turn on FPS counter and display VRTK style / on controller raycast menu
+
+Doors
+-> VRTK Style press button to make door swing open (old style games)
+-> Pull on handle style (Newton)
+
+
+How does it work
+- You attach script to hand to make that interactive
+- You attach a script to the base drawer, door, etc. and configure the points of motion via GameObjects
+	- You could do something similar for doors with 2 points and then do some fancy math
+
+
+Interpupillary Distance (IPD) - distance between lens
+https://www.youtube.com/watch?time_continue=39&v=lq0zyLtohdY
+https://steamcommunity.com/app/358720/discussions/0/487876568222540886/
+
