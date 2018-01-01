@@ -438,3 +438,21 @@ We spoke breifly about her conference and that type of event in general. She mad
 It all seemed pretty interesting. For the one she is attending next week the "crazy idea" paper was to attach a robotic finger to a pair of glasses or the top of a phone. That's certainly interesting. I should look into that and her field some more.
 
 Note: Next week's meeting will be rescheduled to Thursday due to Dr. Williamson going to another conference. 
+
+######################################################################
+
+30/11/17: Supervisor Meeting
+
+I gave a quick update on the work that was done. I got the new lab setup login details sorted as well. I mentioned that I was thinking a lot about how to structure the toolkit in general, Dr. Williamson wasn't quite sure of the best approach so I'll spend a day or two playing around with that before our next meeting and dev-week-1 starts.
+
+######################################################################
+
+06/12/17: Supervisor Meeting
+
+I updated Dr. Williamson on all of the work I've done having lived in the lab for the best part of the week. This ranged from a progress report on the current interaction systems and explained how I want to architect the system. Essentailly rather than the system employed by VRTK and NewtonVR since I am restricting myself to use the HTC Vive I streamline the setup process. Since using the Vive gives access to the SteamVR library setup and streamlining scripts can be written for that in addition to the more general scripts which I've written to achieve the same purpose. That's very vauge. I'll explain this better elsewhere. Basically my toolkit is called SVRA (SteamVR Assistant) which aims to contain 5 sub-toolkits which provide different features for VR development.
+
+Aside from the work update Dr. Williamson asked how I was intending on evaluating the system. She suggested that aside from the public release (which we'll probably have to get Matthew Chalmers to sign off on but should be fine) that we do an evaluation with VR developers (staff VR people / Debbie & Dennis) where we set them some simple tasks and monitor their progress. Afterwards a quick discussion comparing it to existing toolkits. In addition to that I was intending on looking into evaluation methods over the Christmas break and planning it out then.
+
+NOTE: This will be our last meeting of 2017
+
+UPDATE: Some guy online sent me an email saying he was looking for a simple, streamlined VR dev toolkit for teaching VR to new developers. VRTK is too dense, etc. but he was wondering why I didn't just write a VRTK wrapper. I should probably mention this to Dr. Williamson. I'll email him first as this could prove very useful.
