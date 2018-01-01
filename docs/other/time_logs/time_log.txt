@@ -294,4 +294,43 @@ Week Starting: 22/11/17
 27/11/17
 28/11/17
 
-Weekly Time Estimate (Hours) : N-M ()
+Christmas-Crunch-Time (29/11/17 - 13/12/17)
+
+29/11/17
+
+30/11/17
+Dr. Williamson meeting 
+I discussed potential architectures during the supervisor meeting but will need to settle on one within the next few coming days. I'll spend some time in the next 3 days to experiment with implementing different systems and settle on the system I'll be using going forward. 
+
+01/12 | 02/12 | 03/12
+Architecture Design
+I spent some time drawing out both the architectures used by VRTK and Newton and then different architectures I could implement. I ended up with 3 different potential models. The first most closely resembles the VRTK model, the second the Newton model and the third is takes aspects from both but is mostly of my own design. I then spent some time implementing the core of each of the three models. Of the three I will go forward with my own. I believe that my own model is a better fit for the general philosophy and idea of what the SteamVR Assistant (SVRA) intends to be. The SVRA acts the parent for a collection of sub-toolkits which each focus on streamlining an improving a different aspect of Vive development. You might already like NetwonVR physics but find testing and debugging to be a problem so you can just use that aspect of the SVRA toolkit. 
+
+
+04/12 | 05/12 | 06/12 |07/12
+Features worked on:
+- Object interaction system and physics based interactions
+- Object collisions
+- Doors and drawers
+- Switches
+- Events system
+- Locomotion systems 
+- SteamVR streamlining interaction systems
+
+08/12
+** Lab was booked all day by another student - day off **
+
+09/12 | 10/12 | 11/12 | 12/12
+Features worked on:
+- Locomotion systems 
+- Controller inputs (swiping detection)
+- Controller button remapping
+- Projectiles system
+- World scaling and rotation
+
+13/12
+** Lab was booked all day by another student - day off **
+
+I wrote most of the progress report and plan for the next semester. There's a good bit of work but I can manage. No problem.  
+
+Weekly Time Estimate (Hours) : I honestly have no idea. There were several 10-12 hour days. There was 2 days I know I wasn't in the lab. I'm writing this in hindsight you see. I have a notebook of what I worked on just not how long I spent on it. 
