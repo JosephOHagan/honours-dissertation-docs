@@ -334,3 +334,13 @@ Features worked on:
 I wrote most of the progress report and plan for the next semester. There's a good bit of work but I can manage. No problem.  
 
 Weekly Time Estimate (Hours) : I honestly have no idea. There were several 10-12 hour days. There was 2 days I know I wasn't in the lab. I'm writing this in hindsight you see. I have a notebook of what I worked on just not how long I spent on it. 
+
+TODO January (see paper notebook / commit log)
+
+22/01
+- Extracted SetupButtons method (etc.) into virtual method in IOC parent class (refactoring prior to new system)
+- Discovered and fixed bug in project settings
+- Finished off simple play area modifiers script (keyboard version) 
+- Code clean up and tidy work
+- Trello update and overhaul / planned week's work
+- Wrote notepad timelog / meeting minutes onto repo
