@@ -456,3 +456,37 @@ Aside from the work update Dr. Williamson asked how I was intending on evaluatin
 NOTE: This will be our last meeting of 2017
 
 UPDATE: Some guy online sent me an email saying he was looking for a simple, streamlined VR dev toolkit for teaching VR to new developers. VRTK is too dense, etc. but he was wondering why I didn't just write a VRTK wrapper. I should probably mention this to Dr. Williamson. I'll email him first as this could prove very useful.
+
+######################################################################
+
+TODO : Add meeting minutes from txt file here
+
+Mention the PhD stuff as well
+
+General points until then:
+- PhD Idea / Discussions (1st meeting semester 2 -> Feb)
+- Ethics forms
+- Organise game jam
+- Ideas of other evaluation methods (mathew, mark, d&d) <- last week
+
+######################################################################
+
+08/02/18: Supervisor Meeting (Dr. Williamson was in the USA on 07/02)
+
+INTEGRATION TO NEW INTERACTION SYSTEM
+I gave an update on the integration of the new interaction system (its way better than the old system) and the extra stuff that been added (toggle grabbable and interactions). I can't emphasize enough how much of a design improvement this new system is over the old system. 
+
+GAME JAM INSTRUCTIONS & IDEA
+In the README of the repo I said I'll add some instructions on how to use the toolkit. A general overview of what the scripts do, etc. I'll also throw some simple game ideas that I can think of in case people show up with no idea of what to make.
+
+EVALUATION & GAME JAM PLANNING
+We worked out the logistics of what we're going to do on Monday. I'll give her a demo of the system thus far (which gives me Saturday to finish off some features and work on a playground to mess around in). After the demo we'll setup 
+
+I'll setup the bug log Google doc before then. Find that ethics form and include it at the top of the form. I'll get some lollipops for people who play along. Document a bug (better yet solve a bug). 
+
+I need to send Dr. Williamson a copy of the evaluation questions I'll be asking at the game jam today or tomorrow (Friday 08/02). 
+
+PhD UPDATE
+I mentioned that I'd passed on the missing reference form and letter to Dr. Rogers but had yet to recieve a reply. Dr. Williamson said he probably just pulled it and threw it into the application. As a general timeline (if successful) I should get an acceptance letter first then a week or two later recieve the funding letter. Here's hoping.
+
+######################################################################
