@@ -335,12 +335,119 @@ I wrote most of the progress report and plan for the next semester. There's a go
 
 Weekly Time Estimate (Hours) : I honestly have no idea. There were several 10-12 hour days. There was 2 days I know I wasn't in the lab. I'm writing this in hindsight you see. I have a notebook of what I worked on just not how long I spent on it. 
 
-TODO January (see paper notebook / commit log)
+09/01
+3 hours
+(VR Lab)
+- Planning
+- Object Interaction System Testing
+
+12/01
+5 hours
+(VR Lab)
+
+16/01
+5 hours
+(VR Lab)
+
+19/01
+3 hours
+(VR Lab)
 
 22/01
+6 hours
 - Extracted SetupButtons method (etc.) into virtual method in IOC parent class (refactoring prior to new system)
 - Discovered and fixed bug in project settings
 - Finished off simple play area modifiers script (keyboard version) 
 - Code clean up and tidy work
 - Trello update and overhaul / planned week's work
 - Wrote notepad timelog / meeting minutes onto repo
+
+28/01
+8 hours
+
+29/01
+7 hours
+
+30/01
+5 hours
+
+02/02
+5 hours
+
+04/02
+8 hours
+
+05/02
+6 hours
+
+06/02
+7 hours
+
+09/02
+3 hours
+
+10/02
+9 hours
+
+11/02
+5 hours
+
+12/02
+6 hours
+- Evaluation Round 1 - Game Jam
+
+13/02
+5 hours
+- Evaluation Write Up
+- Setting Up VR Lab Again
+
+16/02
+4 hours
+
+17/02
+3 hours
+
+18/02
+8 hours
+
+19/02
+6 hours
+
+20/02
+6 hours
+
+23/02
+6 hours
+- Disseration started and sorting notes
+
+24/02
+3 hours
+- Dissertation work
+
+25/02
+6 hours
+
+27/02
+6 hours
+
+28/02 - 03/03 (SNOW DAY)
+- Dissertation work
+
+20/03
+8 hours
+- Video recording
+- Screenshot capture
+
+21/03
+- Video editing
+- Dissertation
+
+22/03
+- Dissertation
+- Presentation Planning & Creation
+
+23/03
+- Presentation
+
+24/03 - 28/03
+- Dissertation
